@@ -1,6 +1,6 @@
 
 from flask import Flask, render_template, request, jsonify
-from chat_bot import ChatBot
+from chat_bot_api import ChatBot
 
 app = Flask(__name__)
 bot = ChatBot()
